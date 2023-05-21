@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(125deg, rgb(45, 237, 64), rgb(5, 130, 213));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+  .search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+  }
+  .location #input-box {
+    font-size: larger;
+    width: 80%;
+    outline: none;
+    border: none;
+  }
+  .location i {
+    margin-right: 15px;
+    font-size: 1.5rem;
+  }
+  .search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.449);
+    padding: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+  }
+  .search-icon:hover {
+    background-color: rgb(23, 191, 191);
+  }
+  .weather-box {
+    padding: 0 50px;
+    text-align: center;
+  }
+  .weather-box img {
+    width: 70%;
+    height: auto;
+  }
+  .weather-box .temperature {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .weather-box .description {
+    font-size: 1.5rem;
+  }
+  .weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 50px;
+    font-size: 1.2rem;
+  }
+  .humidity, .wind {
+    display: flex;
+  }
+  .humidity i, .wind i{
+    padding: 10px;
+  }
+  .humidity-detail, .wind-detail{
+    display: flex;
+    flex-direction: column;
+  }
