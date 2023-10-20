@@ -25,6 +25,7 @@ function getWeather(){
             alert("Geçerli bir şehir bulunamadı")
             return;
         }
+        
         else{
             console.log(data)
         }
